@@ -17,3 +17,21 @@ int   main  ()
 	printf ("      MENU\n");
 	printf ("===================\n\n");
 	printf ("3. Entrega\n");
+	
+	getch();
+	
+	
+	system("cls");
+	printf ("Voltando ao Master");
+	getch();
+	
+	system("cls");
+	
+	system ("master");
+	/*criada para o sistema não voltar de uma vez, eu ter que apertar algo para sim ele voltar */
+	getch();
+	
+	return 0;
+	
+}
+

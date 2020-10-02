@@ -25,7 +25,14 @@ int   main  ()
 	getche(); /* fica aguardando a inclusão do caracter e o captura para a memória */
 	
 	system("cls");
+	
 	printf ("Voltando ao Master");
+	getch();
+	
+	system("cls");
+	
+	system ("master");
+	/*criada para o sistema não voltar de uma vez, eu ter que apertar algo para sim ele voltar */
 	getch();
 	
 	return 0;

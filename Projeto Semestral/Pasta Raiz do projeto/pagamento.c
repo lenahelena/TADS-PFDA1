@@ -40,6 +40,11 @@ int main ()
 	/*função para limpar a tela toda */
 	system("cls");
 	printf ("Voltando ao Master");
+	getch();
+	
+	system("cls");
+	
+	system ("master");
 	/*criada para o sistema não voltar de uma vez, eu ter que apertar algo para sim ele voltar */
 	getch();
 	
